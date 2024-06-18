@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h2>
+            <table>
+             <tr>
+                <td style="background-color: rgb(100, 255, 100);"> Step 1:Account Details </td>
+                <td style="background-color: rgb(100, 255, 100);"> Step 2:Personal Details </td>
+                <td style="background-color:rgb(196, 196, 255)"> Step 3:Review Section</td>
+             </tr>
+            </table>
+        </h2>
+    </center>
+    <fieldset>
+        <legend>Your Review</legend>
+        <form action="#">
+        <label>How did you hear about us? </label>
+            <select name="Devices">
+            <option value= "select the option">Select The Option</option>
+            <option value="spotify">Spotify</option>
+            <option value="soundcloud">Sound Cloud</option>
+            <option value="itune">Itune</option>
+        </select>
+        </form><br>
+        <label>Would you visit again?<br><br>
+          <input type="radio" name="visit" value="yes" checked="checked">Yes
+          <input type="radio" name="visit" value="No">No
+          <input type="radio" name="visit" value="maybe">Maybe
+        </label><br><br>
+        <label>Comments: <br> <br>
+            <textarea name="comments" cols="20" rows="4">Enter Your Comments Here....</textarea>
+        </label><br><br>
+        <label>Documents</label><br>
+        <form action="#">
+        <input type="file" name="file" value="Choose File">
+    </form><br>
+    <input type="checkbox" name="tick" value="Sign me up for email updates">Sign me up for email updates
+   <br><br>
+    <a href="personaldetail.html"> <img src="back.png" alt="back" width="110"></a>
+    <a href="thanks.html"><img src="submit.png" alt="submit" width="110"></a>
+       
+    </fieldset>
+</body>
+</html>
